@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/alignment-quiz/static/css/main.a6d6970d.css",
-    "main.js": "/alignment-quiz/static/js/main.8f84c5ca.js",
-    "static/js/453.7169bace.chunk.js": "/alignment-quiz/static/js/453.7169bace.chunk.js",
-    "index.html": "/alignment-quiz/index.html",
-    "main.a6d6970d.css.map": "/alignment-quiz/static/css/main.a6d6970d.css.map",
-    "main.8f84c5ca.js.map": "/alignment-quiz/static/js/main.8f84c5ca.js.map",
-    "453.7169bace.chunk.js.map": "/alignment-quiz/static/js/453.7169bace.chunk.js.map"
+    "main.css": "/alignmentquiz/static/css/main.a6d6970d.css",
+    "main.js": "/alignmentquiz/static/js/main.c15fc5f2.js",
+    "static/js/453.7169bace.chunk.js": "/alignmentquiz/static/js/453.7169bace.chunk.js",
+    "index.html": "/alignmentquiz/index.html",
+    "main.a6d6970d.css.map": "/alignmentquiz/static/css/main.a6d6970d.css.map",
+    "main.c15fc5f2.js.map": "/alignmentquiz/static/js/main.c15fc5f2.js.map",
+    "453.7169bace.chunk.js.map": "/alignmentquiz/static/js/453.7169bace.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6d6970d.css",
-    "static/js/main.8f84c5ca.js"
+    "static/js/main.c15fc5f2.js"
   ]
 }

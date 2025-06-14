@@ -1,0 +1,562 @@
+{
+  "name": "Avatar Element Quiz",
+  "x": ["water", "fire"],
+  "y": ["air", "earth"],
+  "center": ["non-bender"],
+  "questionBank": [
+    {
+      "question": "How do you de-stress?",
+      "choices": [
+        {
+          "answer": "Meditate",
+          "x": -5,
+          "y": -10
+        },
+        {
+          "answer": "Punching bag",
+          "x": 10,
+          "y": 5
+        },
+        {
+          "answer": "Take a shower",
+          "x": -10,
+          "y": -5
+        },
+        {
+          "answer": "Exercise",
+          "x": 5,
+          "y": 10
+        },
+        {
+          "answer": "Sleep",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "question": "You're often described as...",
+      "choices": [
+        {
+          "answer": "a peacemaker",
+          "x": -5,
+          "y": -5
+        },
+        {
+          "answer": "a fighter",
+          "x": 5,
+          "y": 5
+        },
+        {
+          "answer": "a healer",
+          "x": 5,
+          "y": -20
+        },
+        {
+          "answer": "nothing in particular",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "question": "What's the worst thing that can befall your enemy?",
+      "choices": [
+        {
+          "answer": "they die",
+          "x": 10,
+          "y": 5
+        },
+        {
+          "answer": "they get stung by a bee",
+          "x": -5,
+          "y": -5
+        },
+        {
+          "answer": "they go away peacefully",
+          "x": -10,
+          "y": -20
+        },
+        {
+          "answer": "don't care",
+          "x": 5,
+          "y": 10
+        },
+        {
+          "answer": "they leave me alone",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "question": "Favourite food from this list",
+      "choices": [
+        {
+          "answer": "spicy rogan josh",
+          "x": 20,
+          "y": 2
+        },
+        {
+          "answer": "chicken and broccoli",
+          "x": 1,
+          "y": 20
+        },
+        {
+          "answer": "sushi rolls",
+          "x": -20,
+          "y": 1
+        },
+        {
+          "answer": "cauliflower soup",
+          "x": 1,
+          "y": -20
+        },
+        {
+          "answer": "burgers",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "question": "Would people call you a fighter?",
+      "choices": [
+        {
+          "answer": "Yes",
+          "x": 10,
+          "y": 10
+        },
+        {
+          "answer": "No",
+          "x": -10,
+          "y": 10
+        },
+        {
+          "answer": "Maybe",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "question": "What is your star sign?",
+      "choices": [
+        {
+          "answer": "Aries 21 March - 20 April",
+          "x": 5,
+          "y": 0
+        },
+        {
+          "answer": "Tauraus 21 April - 21 May",
+          "x": 0,
+          "y": 5
+        },
+        {
+          "answer": "Gemini 22 May - 21 June",
+          "x": 0,
+          "y": -5
+        },
+        {
+          "answer": "Cancer 22 June - 23 July",
+          "x": -5,
+          "y": 0
+        },
+        {
+          "answer": "Leo 24 July - 23 August",
+          "x": 5,
+          "y": 0
+        },
+        {
+          "answer": "Scorpio 24 October - 22 November",
+          "x": -5,
+          "y": 0
+        },
+        {
+          "answer": "Sagittarius 23 November - 21 December",
+          "x": 5,
+          "y": 0
+        },
+        {
+          "answer": "Capricorn 22 December - 20 January",
+          "x": 0,
+          "y": 5
+        },
+        {
+          "answer": "Aquarius 21 January - 19 February",
+          "x": 0,
+          "y": -5
+        },
+        {
+          "answer": "Pisces 20 February - 20 March",
+          "x": -5,
+          "y": 0
+        },
+        {
+          "answer": "Virgo 24 August - 23 September",
+          "x": 0,
+          "y": 5
+        },
+        {
+          "answer": "Libra 24 September -23 October",
+          "x": 0,
+          "y": -5
+        },
+        {
+          "answer": "What's a star sign?",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "question": "How tall are you?",
+      "choices": [
+        {
+          "answer": "< 158cm (sorry)",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "answer": "159 cm - 168 cm ",
+          "x": 0,
+          "y": 5
+        },
+        {
+          "answer": "169 cm - 178 cm",
+          "x": -5,
+          "y": -5
+        },
+        {
+          "answer": "179 cm - 188 cm",
+          "x": 5,
+          "y": 0
+        },
+        {
+          "answer": "189+ cm",
+          "x": 0,
+          "y": 10
+        }
+      ]
+    },
+    {
+      "question": "How would you describe your hair?",
+      "choices": [
+        {
+          "answer": "Bald",
+          "x": 0,
+          "y": -15
+        },
+        {
+          "answer": "Friar cut",
+          "x": 0,
+          "y": -50
+        },
+        {
+          "answer": "No hair but a long pony tail",
+          "x": 25,
+          "y": 0
+        },
+        {
+          "answer": "I got the Homer Simpson cut",
+          "x": 0,
+          "y": 50
+        },
+        {
+          "answer": "Short",
+          "x": 5,
+          "y": 5
+        },
+        {
+          "answer": "Medium-short",
+          "x": 0,
+          "y": 5
+        },
+        {
+          "answer": "Medium",
+          "x": 5,
+          "y": 5
+        },
+        {
+          "answer": "Medium 2",
+          "x": 5,
+          "y": 0
+        },
+        {
+          "answer": "Mullet",
+          "x": 5,
+          "y": 0
+        },
+        {
+          "answer": "Long",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "answer": "I wear wigs",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "question": "Do you have tattoos?",
+      "choices": [
+        {
+          "answer": "I don't have any tattoos",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "answer": "1 tattoo",
+          "x": -10,
+          "y": 0
+        },
+        {
+          "answer": "2-5 tattoos",
+          "x": -10,
+          "y": 0
+        },
+        {
+          "answer": "6-10 tattoos",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "answer": "11+ tattoos",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "answer": "I have racing arrows that cover my forehead, arms and legs",
+          "x": 0,
+          "y": -50
+        }
+      ]
+    },
+    {
+      "question": "You're about to go to sleep-- EEK! \nYou spot a cockroach scuttling along the floor",
+      "choices": [
+        {
+          "answer": "No rest for the weary. Chuck a slipper at that shit til it dead",
+          "x": 5,
+          "y": 0
+        },
+        {
+          "answer": "I'll sort it out in the morning",
+          "x": 0,
+          "y": 5
+        },
+        {
+          "answer": "Maybe it's lost. I will not rest until the cockroach \nat rest",
+          "x": 0,
+          "y": -5
+        },
+        {
+          "answer": "I will shoo it out of the room",
+          "x": -5,
+          "y": 0
+        },
+        {
+          "answer": "cry",
+          "x": 0,
+          "y": -5
+        },
+        {
+          "answer": "Where the Mortein at???",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "question": "You're going to the movies, \nwhat snack are you bringing?",
+      "choices": [
+        {
+          "answer": "Popcorn",
+          "x": 5,
+          "y": 0
+        },
+        {
+          "answer": "Chips",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "answer": "A soft drink of some sort",
+          "x": -5,
+          "y": 0
+        },
+        {
+          "answer": "A sweet treat like chocolate",
+          "x": 0,
+          "y": -5
+        },
+        {
+          "answer": "I'm bringing in either a burrito, kebab,\n or a rotisserie chicken if possible",
+          "x": 0,
+          "y": 5
+        },
+        {
+          "answer": "I do not require sustenance for such a short period of time for my breath is my life. ",
+          "x": 0,
+          "y": -20
+        }
+      ]
+    },
+    {
+      "question": "Are you scared of death?",
+      "choices": [
+        {
+          "answer": "Yes",
+          "x": -10,
+          "y": 10
+        },
+        {
+          "answer": "No",
+          "x": 10,
+          "y": -10
+        },
+        {
+          "answer": "I am not afraid of death, death is afraid of me",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "question": "What genre of music are you currently into?",
+      "choices": [
+        {
+          "answer": "Pop/Rock",
+          "x": -5,
+          "y": 5
+        },
+        {
+          "answer": "Jazz",
+          "x": 5,
+          "y": -5
+        },
+        {
+          "answer": "Classical ",
+          "x": 5,
+          "y": 0
+        },
+        {
+          "answer": "Classical 2",
+          "x": 0,
+          "y": -5
+        },
+        {
+          "answer": "Hip-hop/Rap",
+          "x": 5,
+          "y": 5
+        },
+        {
+          "answer": "Hip-hop/Rap 2",
+          "x": 5,
+          "y": 5
+        },
+        {
+          "answer": "Electronic",
+          "x": -5,
+          "y": 5
+        },
+        {
+          "answer": "Electronic 2",
+          "x": 5,
+          "y": 5
+        },
+        {
+          "answer": "K or J-pop",
+          "x": 5,
+          "y": 5
+        },
+        {
+          "answer": "Soundtracks",
+          "x": 0,
+          "y": -5
+        },
+        {
+          "answer": "Soul/funk/R&B",
+          "x": 5,
+          "y": 5
+        },
+        {
+          "answer": "Soul/funk/R&B 2",
+          "x": 5,
+          "y": 5
+        },
+        {
+          "answer": "Folk",
+          "x": 5,
+          "y": 0
+        },
+        {
+          "answer": "Country",
+          "x": 0,
+          "y": 5
+        },
+        {
+          "answer": "Blues",
+          "x": -5,
+          "y": 0
+        },
+        {
+          "answer": "Really eclectic, underground shit that I have to put you on",
+          "x": -15,
+          "y": 0
+        },
+        {
+          "answer": "Death Grips",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "answer": "Silence is the sound that soothes my soul with solitude",
+          "x": -15,
+          "y": 0
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "Patrick",
+      "colour": "orange",
+      "x": -25,
+      "y": 41
+    },
+    {
+      "name": "Pj",
+      "colour": "purple",
+      "x": -30,
+      "y": 27
+    },
+
+    {
+      "name": "Azula",
+      "colour": "red",
+      "x": 95,
+      "y": 5
+    },
+    {
+      "name": "Monk Gyatso",
+      "colour": "magenta",
+      "x": 0,
+      "y": -92
+    },
+    {
+      "name": "Master Paku",
+      "colour": "aqua",
+      "x": -92,
+      "y": 10
+    },
+    {
+      "name": "Toph",
+      "colour": "brown",
+      "x": 0,
+      "y": 90
+    }
+  ]
+}
