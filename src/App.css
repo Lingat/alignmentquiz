@@ -1,38 +1,201 @@
-.App {
+.quiz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  align-items: center;
+}
+.slider {
+  width: 800px;
+  height: 800px;
+  overflow: hidden;
+  align-self: center;
+}
+
+.slides {
+  display: flex;
+
+  overflow: hidden;
+  scroll-snap-type: x mandatory;
+
+  scroll-behavior: unset;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: none;
+  /*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+}
+
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 700px;
+  height: 600px;
+  position: relative;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.questionRadio {
+  font-size: 20px;
+  padding: 10px;
+  min-height: 100px;
+}
+
+select {
+  width: 100%;
+}
+
+.questionRadio div {
+  margin-bottom: 12px;
+}
+
+.quizBtn {
+  width: 120px;
+  margin: 10px;
+}
+.next {
+  float: right;
+}
+
+.btn:hover {
+  color: grey;
+}
+
+.center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+  font-size: 32px;
+  height: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nameDialog {
+  height: 90px;
+  text-align: center;
+  padding: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nameDialog input {
+  width: 95%;
+  margin: 10px;
+}
+
+#slide-a {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: baseline;
+  justify-content: baseline;
+}
+body {
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.questionBox {
+  margin: 50px;
+}
+
+.graph {
+  margin-right: 20px;
+}
+.graph p {
+  font-size: 32px;
+}
+.graphAndText {
+  display: flex;
+  flex-direction: row;
+}
+.graphWrapper {
+  width: 100%;
+  padding: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .window {
+    width: 100vw;
+    height: 100vh;
   }
-  to {
-    transform: rotate(360deg);
+
+  .slider {
+    width: 100vw;
+    height: 100vh;
+  }
+  .slides {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .slides > div {
+    scroll-snap-align: start;
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: start;
+    align-items: start;
+  }
+  .nameDialog {
+    height: 90px;
+    padding: 30px;
+    align-self: start;
+  }
+  .quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100vw;
+    align-items: start;
+    margin-top: 100px;
+  }
+
+  .questionBox {
+    margin: 0;
+  }
+
+  .graph {
+    margin-right: 0px;
+  }
+  .graph p {
+    font-size: 32px;
+  }
+  .graphAndText {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+  .graphWrapper {
+    padding: 0px;
+  }
+
+  .window {
+    margin: 0px;
+    padding: 0;
+    height: 500px;
+  }
+  .window-pane {
+    margin: 0;
+  }
+  h1 {
+    text-align: center;
   }
 }
